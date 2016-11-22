@@ -1,0 +1,18 @@
+prefix = /usr/local
+
+all:
+        : # do nothing
+
+install:
+#        install -D scripts/hello \
+#                $(DESTDIR)$(prefix)/bin/hello
+
+clean:
+        : # do nothing
+
+distclean: clean
+
+uninstall:
+       # -rm -f $(DESTDIR)$(prefix)/bin/hello
+
+.PHONY: all install clean distclean uninstall
